@@ -1,0 +1,236 @@
+* {
+  background-color: rgb(194, 191, 191);
+}
+main {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "nav nav"
+    "cim cim"
+    "article img"
+    "footer footer";
+  grid-template-rows: auto;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  font-family: Arial;
+  background-color: rgb(194, 191, 191);
+}
+.main2 {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "nav nav"
+    "cim cim"
+    "article article"
+    "footer footer";
+  grid-template-rows: auto;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  font-family: Arial;
+  background-color: rgb(194, 191, 191);
+}
+.main3 {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "nav nav"
+      "cim cim"
+      "article article"
+      "footer footer";
+    grid-template-rows: auto;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    font-family: Arial;
+    background-color: rgb(194, 191, 191);
+}
+.main4 {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "nav nav"
+      "cim cim"
+      "article article"
+      "footer footer";
+    grid-template-rows: auto;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    font-family: Arial;
+    background-color: rgb(194, 191, 191);
+}
+header {
+  grid-area: header;
+  text-align: center;
+  border: 1px solid rgb(1, 5, 255);
+  background-color: rgb(138, 138, 138);
+  h1 {
+    background-color: rgb(138, 138, 138);
+  }
+}
+nav {
+  grid-area: nav;
+  ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style: none;
+    padding: 20px;
+    background-color: rgb(138, 138, 138);
+  }
+  a {
+    display: grid;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(194, 191, 191);
+  }
+  background-color: rgb(138, 138, 138);
+}
+h2 {
+  grid-area: cim;
+  text-align: center;
+  margin: 5px;
+}
+article {
+  grid-area: article;
+  border: 1px solid rgb(1, 5, 255);
+  padding: 10px;
+  background-color: rgb(138, 138, 138);
+  p {
+    background-color: rgb(138, 138, 138);
+  }
+}
+.imgoldal1 {
+  grid-area: img;
+  float: right;
+  padding: 10px;
+  border: 1px solid rgb(1, 5, 255);
+  background-color: rgb(138, 138, 138);
+}
+footer {
+  grid-area: footer;
+  text-align: center;
+}
+img {
+  background-color: rgb(138, 138, 138);
+}
+.table1 {
+  grid-area: article;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 80px;
+  width: 100%;
+  td {
+    border: 1px solid rgb(1, 5, 255);
+  }
+}
+.keptd {
+  width: 100%;
+  height: 100%;
+  width: 350px;
+  height: 197px;
+  padding: auto;
+  .kosarkep {
+    margin: auto;
+  }
+}
+.p2{
+    text-align: center;
+    background-color: rgb(194, 191, 191);
+}
+.button1{
+    padding: 80px 80px;
+    background-image: url("kepek/kepek atalakitva/Új projekt.png");
+}
+.button2{
+    padding: 80px 80px;
+    background-image: url("kepek/kepek atalakitva/ss.png");
+}
+.buttonok{
+    grid-area: article;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+    border-radius: 70%;
+}
+.munkak{
+    display: grid;
+    grid-area: article;
+    gap: 100px;
+    grid-template-columns:repeat(3, 1fr);
+    list-style: none;
+    text-decoration: none;
+    border: 1px solid blue;
+    margin: 5px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.limacska{
+    border: 1px solid blue;
+    padding-bottom: 300px;
+    margin: 10px;
+    margin-bottom: 0px;
+    background-image: url("kepek/free-w3c-html5-logo-png-image-download-now-2.png");
+    background-size: cover;
+    background-color: white;
+    padding-bottom: px;
+}
+.likozosfeladat{
+    border: 1px solid blue;
+    padding-bottom: 300px;
+    margin: 10px;
+    margin-bottom: 0px;
+    background-image: url("kepek/free-w3c-html5-logo-png-image-download-now-2.png");
+    background-size: cover;
+    background-color: white;
+}
+.lisakk{
+    border: 1px solid blue;
+    padding-bottom: 300px;
+    margin: 10px;
+    margin-bottom: 0px;
+    background-image: url("kepek/sss2222.png");
+    background-size: cover;
+    background-color: white
+}
+.letoltesek{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-decoration: none;
+    border: 1px solid blue;
+    margin: 5px;
+    padding: 0px;
+    padding-bottom: 20px;
+}
+.munkacim{
+    gr
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-decoration: none;
+    border: 1px solid blue;
+    margin: 5px;
+    padding: 0px;
+    padding-bottom: 20px;
+}
+@media (max-width: 390px) {
+  main {
+    grid-template-areas:
+      "header"
+      "nav"
+      "article"
+      "img"
+      "footer";
+    grid-template-columns: 1fr;
+  }
+  .main2 {
+    grid-template-areas:
+      "header"
+      "nav"
+      "article"
+      "footer";
+    grid-template-columns: 1fr;
+  }
+}
